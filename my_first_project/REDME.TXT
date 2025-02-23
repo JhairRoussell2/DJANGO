@@ -4,3 +4,10 @@ python manage.py runserver
 .\venv\Scripts\activate
 
 https://www.youtube.com/watch?v=Bfu-HqcRoRs
+
+comando para ver la base de datos en django:
+./manage.py dbshell o python manage.py dbshell
+
+Para hacer las migaciones de models a la base de datos y de la BD a Models
+ python manage.py makemigrations
+python manage.py migrate
